@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vaccination</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <a href="" class="logo">Vaccination</a>
+        <ul>
+            <li class="active"><a href="#">Database</a></li>
+            <li><a href="#">Regulation</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Hoax Buster</a></li>
+        </ul>
+    </div>
+
+
+
+<div class="container">
+    <div class="triangulo1"></div>
+    <div class="cuadrado1"></div>
+    <div class="article">
+        <h1> Fight Virus <br> With Vaccines</h1>
+        <p>Let's stop pandemic by killing the virus <br>
+           With a vaccine, don't let yourself and your <br>
+           family get infected
+        </p>
+        <div class="iconos">
+            <div class="escudo">
+                <div class="escudo-texto">
+                    <i class="fa-duotone fa-shield-check"></i>
+                    <p>Best protection</p>
+                </div>
+            </div>
+            <div class="estrella">
+                <div class="estrella-texto">
+                    <i class="fa-duotone fa-shield-check"></i>
+                    <p>Selected Vaccines</p>
+                </div>
+            </div>
+        </div>
+        <form action="">
+            <fieldset class="schedulevaccine">
+                <legend><i class="fa-solid fa-clock iconBlueMain"></i>Schedule your vaccinations</legend>
+                <fieldset class="scheduledetails">
+                    <div class="locationsBox"> 
+                        <label for="locations"><i class="fa-solid fa-location-dot iconBlueSecondary"></i>Location</label>
+                        <input list="locations" id="location" name="location">
+                        <datalist id="locations">
+                            <option value="CDMX">
+                            <option value="EDOMEX">
+                            <option value="MONTERREY">
+                            <option value="JALISCO">
+                            <option value="DURANGO">
+                            <option value="GUERRERO">
+                            <option value="">
+                            <option value="City and County of Broomfield">
+                            <option value="Chaffee County">
+                            <option value="Cheyenne County">
+                        </datalist>
+                    </div>
+                    <div class="appointmentBox">
+                        <label for="appointmentDate"><i class="fa-solid fa-calendar-days iconBlueSecondary"></i>Date</label>
+                        <input type="date" name="appointmentDate" id="appointmentDate">
+                    </div>    
+                    <div class="vaccineBox">
+                        <label for="vaccineType"><i class="fa-solid fa-pen iconBlueSecondary"></i>Vaccine Type</label>
+                        <select name="vaccineType" id="vaccineType">
+                            <option value="astraZeneca">AstraZeneca</option>
+                            <option value="moderna">Moderna</option>
+                            <option value="pfizer">Pfizer</option>
+                            <option value="sinovac">Sinovac</option>
+                        </select>
+                    </div>
+                    <div class="submitBox">
+                        <input type="submit" value="Submit">
+                    </div>
+                </fieldset>
+            </fieldset>
+        </form>
+        
+    </div>
+    <img class="enfermera1" src="img/enfermera1.jpeg" alt="">     
+</div>
+
+<div class="logos">
+    <img src="img/logos.PNG">
+</div>
+
+
+</body>
+</html>
